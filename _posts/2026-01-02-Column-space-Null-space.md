@@ -82,5 +82,5 @@ x = c\begin{bmatrix} 1 \\
 \end{bmatrix}
 $$
 
-> 참고 블로그: https://twlab.tistory.com/17 (https://twlab.tistory.com/17)
+> [참고 블로그](https://twlab.tistory.com/17 "Learn Again! 러너게인")
 {: .prompt-info }
