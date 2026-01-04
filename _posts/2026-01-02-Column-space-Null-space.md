@@ -99,6 +99,21 @@ $$
 - pivot원소를 1로 만들기 위해서 pivot에 해당하는 row 전체를 pivot으로 나눔
 - origial matrix, REF, RREF 모두 null space는 동일
 
+## complete solution(완전해)
+- complete solution이란 $Ax=b$를 만족하는 모든 $x$
+- $b$에 대한 가해조건(solvability condition on $b$): $b$벡터가 행렬$A$의 column space 안에 존재할 떄
+- particular solution(특수해), $x_p$: free variable을 0으로 설정하고 나머지 $x$벡터의 원소를 구함. 상수배는 하지 않음
+- null space solution, $x_n$: 이전에 구한 것처럼 구함
+- complete solution: $x=x_p+x_n$
+
+## rank와 해의 조건
+$r$: rank, $m$: number of rows, $n$: number of columns
+| $r=m=n$ | $r=n<m$ | $r=m<n$ | $r<m, r<n$ |
+| :--: | :--: | :--: | :--: |
+| $RREF=I$ | $RREF=\left[ {I \atop O} \right]$ | $RREF=\left[ I \ \ F \right]$ <br> $F$: free columns | $RREF=\left[ {I \atop O} \ \ {F \atop O} \right]$ <br> $F$: free columns |
+| • $Ax=b$에 대해 오직 하나의 해만 존재 | • 해가 없거나 <br> • 오직 하나의 해만 존재 | • 해가 항상 존재 <br> • 무한대의 해가 존재 | • 해가 없거나 <br> • 무한대의 해가 존재 |
+
 > [참고 블로그1](https://twlab.tistory.com/17 "Learn Again! 러너게인")
 > [참고 블로그2](https://twlab.tistory.com/21 "Learn Again! 러너게인")
+> [참고 블로그2](https://twlab.tistory.com/22 "Learn Again! 러너게인")
 {: .prompt-info }
