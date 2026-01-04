@@ -100,4 +100,5 @@ $$
 - origial matrix, REF, RREF 모두 null space는 동일
 
 > [참고 블로그1](https://twlab.tistory.com/17 "Learn Again! 러너게인")
+> [참고 블로그2](https://twlab.tistory.com/21 "Learn Again! 러너게인")
 {: .prompt-info }
