@@ -108,12 +108,13 @@ $$
 
 ## rank와 해의 조건
 $r$: rank, $m$: number of rows, $n$: number of columns
+
 | $r=m=n$ | $r=n<m$ | $r=m<n$ | $r<m, r<n$ |
-| :--: | :--: | :--: | :--: |
+| :---: | :---: | :---: | :---: |
 | $RREF=I$ | $RREF=\left[ {I \atop O} \right]$ | $RREF=\left[ I \ \ F \right]$ <br> $F$: free columns | $RREF=\left[ {I \atop O} \ \ {F \atop O} \right]$ <br> $F$: free columns |
 | • $Ax=b$에 대해 오직 하나의 해만 존재 | • 해가 없거나 <br> • 오직 하나의 해만 존재 | • 해가 항상 존재 <br> • 무한대의 해가 존재 | • 해가 없거나 <br> • 무한대의 해가 존재 |
 
 > [참고 블로그1](https://twlab.tistory.com/17 "Learn Again! 러너게인")
 > [참고 블로그2](https://twlab.tistory.com/21 "Learn Again! 러너게인")
-> [참고 블로그2](https://twlab.tistory.com/22 "Learn Again! 러너게인")
+> [참고 블로그3](https://twlab.tistory.com/22 "Learn Again! 러너게인")
 {: .prompt-info }
